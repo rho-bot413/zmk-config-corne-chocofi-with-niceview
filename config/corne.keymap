@@ -36,10 +36,10 @@
 		&kp A 			&kp S 			&kp D 			&kp F 			&kp G   				&kp H 			&kp J  			&kp K     		&kp L        &lt NUMP SEMI
 // |---------------|---------------|---------------|---------------|---------------|       |---------------|---------------|---------------|---------------|---------------|
 // |       Z       |       X       |       C       |       V       |       B       |       |       N       |       M       |       ,       |       .       | Shift or FSLH | 
-		&kp Z 			&kp X 			&kp C 			&kp V 			&kp B   				&kp N 			&kp M  			&kp COMMA 	 &mt RCTRL DOT 	&mt RSHIFT FSLH
+	  &mt LCTRL Z		&kp X 			&kp C 			&kp V 			&kp B   				&kp N 			&kp M  			&kp COMMA 	 &mt RCTRL DOT 	&mt RSHIFT FSLH
 // ╰-------------------------------|---------------|---------------|---------------|       |---------------|---------------|---------------|-------------------------------╯
-//             					   |      GUI      |      LWR      |      RSE      |       |      SPC      |      ENT      |      ALT      |
-										&kp LGUI 	   &mo LOWER 	   &mo RAISE  			   &kp SPACE 	    &kp RET 	    &kp RALT
+//             					   |      GUI      |  LWR or ENT   |  RSE or SPC   |       |      SPC      |      ENT      |      ALT      |
+										&kp LGUI 	 &lt LOWER RET	&lt RAISE SPACE 			   &kp SPACE 	    &kp RET 	    &kp RALT
 //                                 ╰-----------------------------------------------╯       ╰-----------------------------------------------╯
                         >;
                 };
@@ -51,8 +51,8 @@
 
                         bindings = <
 // ╭-------------------------------------------------------------------------------╮       ╭-------------------------------------------------------------------------------╮
-// |               |               |               |               |               |       |               |               |      UP       |               |               | 
-		&trans       	&trans       	&trans       	&trans       	&trans         			&trans   		&trans   		&kp UP 			&trans    		&kp BSPC
+// |      ESC      |      DEL      |     PSCRN     |               |               |       |               |      HOME     |      UP       |      END      |               | 
+		&kp ESC       	&kp DEL        &kp PSCRN       	&trans       	&trans         			&trans   		&kp HOME   		&kp UP 			&kp END    		&kp BSPC
 // |---------------|---------------|---------------|---------------|---------------|       |---------------|---------------|---------------|---------------|---------------|
 // |      TAB      |               |      BT1      |      BT2      |      BT3      |       |               |      LFT      |      DOWN     |      RGT      |               | 
         &kp TAB   	    &trans     	  &bt BT_SEL 0 	  &bt BT_SEL 1 	  &bt BT_SEL 2   			&trans   		&kp LEFT 		&kp DOWN		&kp RIGHT 		&trans
@@ -80,11 +80,11 @@
 // |       !       |       @       |       #       |       $       |       %       |       |       ^       |       &       |       *       |       (       |       )       | 
 		&kp EXCL 		&kp AT 		&kp HASH 			&kp DLLR 		&kp PRCNT   			&kp CARET 		&kp AMPS  	&kp KP_MULTIPLY 	&kp LPAR 		&kp RPAR
 // |---------------|---------------|---------------|---------------|---------------|       |---------------|---------------|---------------|---------------|---------------|
-// |      TAB      |               |               |               |               |       |       -       |       =       |       [       |       ]       |       \       | 
-		&kp TAB   		&trans 			&trans   		&trans   		&trans      			&kp MINUS 		&kp EQUAL 		&kp LBKT        &kp RBKT 		&kp BSLH
+// |      TAB      |               |               |               |     APOS      |       |       -       |       =       |       [       |       ]       |       \       | 
+		&kp TAB   		&trans 			&trans   		&trans   		&kp APOS      			&kp MINUS 		&kp EQUAL 		&kp LBKT        &kp RBKT 		&kp BSLH
 // |---------------|---------------|---------------|---------------|---------------|       |---------------|---------------|---------------|---------------|---------------|
-// |               |               |               |               |               |       |       _       |       +       |       {       |       }       |      "|"      | 
-		&trans   		&trans 			&trans   		&trans   		&trans      			&kp UNDER 		&kp PLUS  		&kp LBRC        &kp RBRC 		&kp PIPE
+// |               |               |               |               |     QUOTE     |       |       _       |       +       |       {       |       }       |      "|"      | 
+		&trans   		&trans 			&trans   		&trans   		&kp DQT      			&kp UNDER 		&kp PLUS  		&kp LBRC        &kp RBRC 		&kp PIPE
 // ╰-------------------------------|---------------|---------------|---------------|       |---------------|---------------|---------------|-------------------------------╯
 //                                 |               |               |               |       |               |               |               |
 										&trans 			&trans   		&trans  				&trans   		&trans    		&trans
