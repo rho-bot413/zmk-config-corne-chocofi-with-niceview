@@ -38,8 +38,8 @@
 // |       Z       |       X       |       C       |       V       |       B       |       |       N       |       M       |       ,       |       .       | Shift or FSLH | 
 	  &mt LCTRL Z		&kp X 			&kp C 			&kp V 			&kp B   				&kp N 			&kp M  			&kp COMMA 	 &mt RCTRL DOT 	&mt RSHIFT FSLH
 // ╰-------------------------------|---------------|---------------|---------------|       |---------------|---------------|---------------|-------------------------------╯
-//             					   |      GUI      |  LWR or ENT   |  RSE or SPC   |       |      SPC      |      ENT      |      ALT      |
-										&kp LGUI 	 &lt LOWER RET	&lt RAISE SPACE 			   &kp SPACE 	    &kp RET 	    &kp RALT
+//             					   |      GUI      |     LOWER     |     RAISE     |       |      SPC      |      ENT      |      ALT      |
+										&kp LGUI 	   &mo LOWER  	   &mo RAISE 			   &kp SPACE 	    &kp RET 	    &kp RALT
 //                                 ╰-----------------------------------------------╯       ╰-----------------------------------------------╯
                         >;
                 };
