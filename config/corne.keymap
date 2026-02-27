@@ -54,8 +54,8 @@
 // |      ESC      |      PSCRN    |      DEL      |               |               |       |               |      HOME     |      UP       |      END      |               | 
 		&kp ESC       	&kp PSCRN        &kp DEL       	&trans       	&trans         			&trans   		&kp HOME   		&kp UP 			&kp END    		&kp BSPC
 // |---------------|---------------|---------------|---------------|---------------|       |---------------|---------------|---------------|---------------|---------------|
-// |               |               |      BT1      |      BT2      |      BT3      |       |               |      LFT      |      DOWN     |      RGT      |               | 
-        &trans   	    &trans     	  &bt BT_SEL 0 	  &bt BT_SEL 1 	  &bt BT_SEL 2   			&trans   		&kp LEFT 		&kp DOWN		&kp RIGHT 		&trans
+// |    LSHIFT     |               |      BT1      |      BT2      |      BT3      |       |               |      LFT      |      DOWN     |      RGT      |               | 
+      &kp LSHIFT   	    &trans     	  &bt BT_SEL 0 	  &bt BT_SEL 1 	  &bt BT_SEL 2   			&trans   		&kp LEFT 		&kp DOWN		&kp RIGHT 		&trans
 // |---------------|---------------|---------------|---------------|---------------|       |---------------|---------------|---------------|---------------|---------------|
 // |               |               |      BT4      |      BT5      |     BT CLR    |       |               |               |               |               |               | 
 		&trans         	&trans       &bt BT_SEL 3     &bt BT_SEL 3     &bt BT_CLR      			&trans   		&trans   		&trans 			&trans    		&trans
