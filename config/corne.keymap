@@ -51,8 +51,8 @@
 
                         bindings = <
 // ╭-------------------------------------------------------------------------------╮       ╭-------------------------------------------------------------------------------╮
-// |      ESC      |      PSCRN    |      DEL      |               |               |       |               |      HOME     |      UP       |      END      |               | 
-		&kp ESC       	&kp PSCRN        &kp DEL       	&trans       	&trans         			&trans   		&kp HOME   		&kp UP 			&kp END    		&kp BSPC
+// |      ESC      |      PSCRN    |      DEL      |     VOL_DN    |    VOL_UP     |       |               |      HOME     |      UP       |      END      |               | 
+		&kp ESC       	&kp PSCRN        &kp DEL     &kp C_VOL_DN    &kp C_VOL_UP      			&trans   		&kp HOME   		&kp UP 			&kp END    		&kp BSPC
 // |---------------|---------------|---------------|---------------|---------------|       |---------------|---------------|---------------|---------------|---------------|
 // |    LSHIFT     |               |      BT1      |      BT2      |      BT3      |       |               |      LFT      |      DOWN     |      RGT      |               | 
       &kp LSHIFT   	    &trans     	  &bt BT_SEL 0 	  &bt BT_SEL 1 	  &bt BT_SEL 2   			&trans   		&kp LEFT 		&kp DOWN		&kp RIGHT 		&trans
